@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+width: 1512px;
+padding: 4rem 2rem 2rem 4rem;
+
+display: flex;
+align-items: flex-start;
+gap: 86px;
+align-self: stretch;
+}
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+}
+
+
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.drawing-board {
+  margin-right: 20px;
+}
+
+body {
+  font-size: clamp(10px, calc(.85 * (6px + 0.857vw)), 16px);
+  margin: 0px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 78px;
+  flex: 1 0 0;
+  
+}
+
+.disadvantage {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+}
+
+.disadvantage, ul p {
+  max-width: 30rem;
+}
+
+.disadvantages {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+}
+
+.disadvantage > p {
+  margin: .4rem;
+}
+
+.disadvantagesContainer {
+  gap: 2rem;
+}
+
+.disadvantage {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.disadvantage input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+  flex-shrink: 0; /* Prevent checkbox from shrinking */
+}
+
+.disadvantage input[type="checkbox"]:checked {
+  background-color: #333;
+}
+
+.disadvantage input[type="checkbox"]:checked::after {
+  content: '\2713';
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.disadvantage p {
+  margin: 0;
+  flex-grow: 1; /* Allow text to take remaining space */
+  word-break: break-word; /* Allow long words to break */
+}
