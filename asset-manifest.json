@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/stream-game/static/css/main.11c9a728.css",
-    "main.js": "/stream-game/static/js/main.1dd55902.js",
+    "main.js": "/stream-game/static/js/main.265a566a.js",
+    "static/media/timesup (2).mp3": "/stream-game/static/media/timesup (2).2c8395119406c2eb6672.mp3",
+    "static/media/click.mp3": "/stream-game/static/media/click.26bdd2961d63849e0741.mp3",
     "index.html": "/stream-game/index.html",
     "main.11c9a728.css.map": "/stream-game/static/css/main.11c9a728.css.map",
-    "main.1dd55902.js.map": "/stream-game/static/js/main.1dd55902.js.map"
+    "main.265a566a.js.map": "/stream-game/static/js/main.265a566a.js.map"
   },
   "entrypoints": [
     "static/css/main.11c9a728.css",
-    "static/js/main.1dd55902.js"
+    "static/js/main.265a566a.js"
   ]
 }
