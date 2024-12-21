@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BenHoffman06/E-See-New/static/css/main.11c9a728.css",
+    "main.js": "/BenHoffman06/E-See-New/static/js/main.1dd55902.js",
+    "index.html": "/BenHoffman06/E-See-New/index.html",
+    "main.11c9a728.css.map": "/BenHoffman06/E-See-New/static/css/main.11c9a728.css.map",
+    "main.1dd55902.js.map": "/BenHoffman06/E-See-New/static/js/main.1dd55902.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11c9a728.css",
+    "static/js/main.1dd55902.js"
+  ]
+}
